@@ -1,0 +1,4 @@
+- name: Ensure example file is present
+  copy:
+    dest: /tmp/example.txt
+    content: "This is an example file."
